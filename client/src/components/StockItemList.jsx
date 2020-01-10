@@ -9,10 +9,10 @@ import {
   Icon
 } from "carbon-components-react";
 import { iconCheckmarkSolid } from "carbon-icons";
-import Header from "./Header";
-import "./patterns.scss";
+import Header from "../pattern-components/Header";
+import "../pattern-components/patterns.scss";
 
-class TableList extends Component {
+class StockItemList extends Component {
   title = 'Table List';
   subtitle = 'This pattern will display and array of model objects in a multi column grid/table.';
 
@@ -140,4 +140,4 @@ class TableList extends Component {
   }
 }
 
-export default TableList;
+export default StockItemList;
